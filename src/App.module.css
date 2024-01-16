@@ -1,0 +1,47 @@
+#root {
+  margin: 0;
+  background-color: white;
+}
+
+.seccionPrincipal {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.contenedorPrincipal {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.contenedorProductos {
+  width: 100%;
+  min-height: 690px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.error {
+  margin-top: 300px;
+  text-align: center;
+}
+
+
+/* App.module.css */
+
+.transitionBlock {
+  opacity: 1;
+  height: 100px;
+  width: 200px;
+  background-color: lightblue;
+  transition: opacity 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+
+.hidden {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}

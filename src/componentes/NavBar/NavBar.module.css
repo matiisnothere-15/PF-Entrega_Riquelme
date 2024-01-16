@@ -1,0 +1,70 @@
+.contenedorNavBar {
+  height: 68px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  background-color: #d7e8fb;
+  color: black;
+
+}
+.nombreTienda {
+  font-weight: bold;
+  height: 68px;
+  width: 90%;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+
+  background-color: #d7e8fb;
+  color: black;
+  font-size: x-large;
+
+}
+.contenedor {
+  width: 180px;
+  height: 724px;
+  border-right: 1px solid #d7e8fb;
+  margin-top: 0px;
+  padding-top: 40px;
+  background-color: #d7e8fb;
+}
+.contenedorItems {
+  margin-top: 100px;
+}
+.items {
+  list-style: none;
+  margin-top: 20px;
+}
+.enlacesItems {
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  text-decoration: none;
+}
+.subMenu {
+  list-style: none;
+}
+nav ul ul {
+  height: 0;
+  overflow: hidden;
+  transition: 0.6s;
+}
+nav ul li:hover ul {
+  height: 80px;
+}
+
+
+
+.contenedorNavBar {
+  display: flex;
+  align-items: center;
+  padding: 10px; 
+}
+
+.menuButton {
+  width: 30px;
+  height: 25px; 
+  margin-left: 10px; 
+}
