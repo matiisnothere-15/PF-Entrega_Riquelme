@@ -1,20 +1,23 @@
 .contenedor {
-  width: 450px;
-  height: 500px;
+  width: 350px;
+  height: 400px;
   border-radius: 20px;
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  -webkit-box-shadow: 0px 5px 17px 1px rgba(0, 0, 0, 0.42);
-  box-shadow: 0px 5px 17px 1px rgba(0, 0, 0, 0.42);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 10px 1px rgb(0, 0, 0);
+  
   
 }
 
 .img {
-  width: 200px;
-  height: 300px;
+  width: 150px;
+  height: 3500px;
   border-radius: 5px;
 }
 
@@ -27,7 +30,7 @@
   text-decoration: none;
   border-radius: 5px;
   border: 2px solid #131313;
-  background-color: #d7e8fb;
+  background-color: #fe4848;
 }
 .boton:hover {
   cursor: pointer;

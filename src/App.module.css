@@ -3,8 +3,9 @@
   background-color: white;
 }
 
-.seccionPrincipal {
+.container {
   width: 100%;
+  min-height: 750px;
   display: flex;
   flex-direction: row;
 }
@@ -14,7 +15,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 .contenedorProductos {
   width: 100%;
@@ -22,26 +22,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 .error {
   margin-top: 300px;
   text-align: center;
 }
-
-
-/* App.module.css */
-
-.transitionBlock {
-  opacity: 1;
-  height: 100px;
-  width: 200px;
-  background-color: lightblue;
-  transition: opacity 0.5s ease-in-out, height 0.5s ease-in-out;
-}
-
-.hidden {
-  opacity: 0;
-  height: 0;
-  overflow: hidden;
+.footer{
+  width: 100%;
+  z-index: 15;
 }

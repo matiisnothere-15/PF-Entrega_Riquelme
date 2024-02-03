@@ -1,0 +1,29 @@
+
+.contenedor{
+    height: 135px;
+    width: 650px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 5px 17px 1px rgba(0, 0, 0, 0.42);
+    box-shadow: 0px 5px 17px 1px rgba(0, 0, 0, 0.42);
+}
+.imagen{
+    width: 80px;
+    height: 100px;
+    margin: 25px;
+}
+.precio{
+    margin-left:30px ;
+}
+.cantidad{
+    margin-left: 30px;
+}
+button{
+    min-width: 30px;
+    min-height: 25px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    background-color: #fe4848;
+}

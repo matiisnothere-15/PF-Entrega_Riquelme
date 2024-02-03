@@ -1,0 +1,47 @@
+/* Footer.module.css */
+
+.contenedor {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #fe4848 0%, #fe4848 58%, #f4978e 100%);
+}
+
+.enlaces {
+  margin-bottom: 20px;
+}
+
+.enlaces a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.redesSociales {
+  display: flex;
+}
+
+.link {
+  margin: 0 10px;
+}
+
+.icono {
+  width: 30px;
+  height: 30px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.link:hover .icono {
+  color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin: 10px;
+}

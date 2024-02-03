@@ -2,7 +2,7 @@
   margin-bottom: 150px;
   width: 900px;
   height: 500px;
-  margin-top: 50px;
+  margin-top: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,11 +32,11 @@
   text-align: center;
   margin: 9px;
   border-radius: 5px;
-  border: 2px solid #131313;
-  background-color: #d7e8fb;
+  border: 2px solid #000000;
+  background-color: #fe4848;
   text-decoration: none;
   transition-duration: 0.5s;
 }
 .btn:hover {
-  background-color: #131313;
+  background-color: #fe4848;
 }
