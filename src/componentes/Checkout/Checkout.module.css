@@ -1,4 +1,78 @@
-.contenedor{
+/* Checkout.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .formContainer {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
     text-align: center;
-    margin-top: 200px;
-}
+  }
+  
+  .successMessage {
+    font-size: 2em;
+  }
+  
+  .successMessage p {
+    font-size: 1.2em;
+  }
+  
+  .formTitle {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .formLabel {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .formInput {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .formTextArea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .cartDetailsTitle {
+    font-size: 1.4em;
+    margin: 20px 0 10px;
+  }
+  
+  .cartDetailsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .cartDetailsItem {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .submitButton {
+    background-color: #fe4848;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
